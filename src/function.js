@@ -2,47 +2,46 @@ const eventKey = { left: 37, up: 38, right: 39, down: 40 }
  
 export const HeroNavigation = () => {
   const buttons = document.querySelectorAll('main .details button')
-	buttons[0].focus()
-	
-  buttons[0].addEventListener('keydown', event => {
-    switch (event.keyCode) {
-      case eventKey.right: 
-        buttons[1].focus()
-        break
-      case eventKey.left:
-				sidebarNavigation('HeroNavigation')
-				break
-			case eventKey.down:
-				railNavigation()
-				break
-      default:
-        break
-    }
+	buttons[0] && buttons[0].focus()
+	buttons[0] &&
+		buttons[0].addEventListener('keydown', event => {
+			switch (event.keyCode) {
+				case eventKey.right: 
+					buttons[1].focus()
+					break
+				case eventKey.left:
+					sidebarNavigation('HeroNavigation')
+					break
+				case eventKey.down:
+					railNavigation()
+					break
+				default:
+					break
+			}
   })
-
-  buttons[1].addEventListener('keydown', event => {
-		switch (event.keyCode) {
-      case eventKey.left: 
-        buttons[0].focus()
-        break
-			case eventKey.down:
-				railNavigation()
-				break
-      default:
-        break
-    }
+	buttons[0] &&
+		buttons[1].addEventListener('keydown', event => {
+			switch (event.keyCode) {
+				case eventKey.left: 
+					buttons[0].focus()
+					break
+				case eventKey.down:
+					railNavigation()
+					break
+				default:
+					break
+			}
 	})
 }
 
 function sidebarNavigation (beforeFunction) {
-	var teste = beforeFunction
+	console.log(beforeFunction)
 	document.querySelector('section .item-menu-0').focus()
   const items = document.querySelectorAll('section button')
 
 	items.forEach(item => {
 		item.addEventListener('keydown', event => {
 			const key = item.getAttribute('data-key')
-			teste = beforeFunction;
 			switch (event.keyCode) {
 				case eventKey.down:
 					const nextEvent = document.querySelector(`section .item-menu-${parseInt(key) + 1}`)
@@ -53,10 +52,11 @@ function sidebarNavigation (beforeFunction) {
 					prevEvent && prevEvent.focus()
 					break
 				case eventKey.right:
-					if(teste === 'railNavigation'){
+					console.log(beforeFunction)
+					if(beforeFunction === 'railNavigation'){
 						railNavigation()
 					}
-					if(teste === 'HeroNavigation'){
+					if(beforeFunction === 'HeroNavigation'){
 						HeroNavigation()
 					}
 					break
