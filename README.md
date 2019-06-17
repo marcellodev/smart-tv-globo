@@ -1,68 +1,65 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Telecine Play
 
-## Available Scripts
+Aplicação desenvolvida para teste de conhecimento no processo seletivo da equipe Globo.
 
-In the project directory, you can run:
 
-### `npm start`
+## Vamos começar?
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Essas instruções farão com que você tenha uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Pré-requisitos
 
-### `npm test`
+Antes de mais nada, verifique se você possui os requisitos para rodar o projeto.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
+- Node >= 10.15.0
+- NPM >= 6.4.1
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+É bem simples, com 4 passos você conseguirá rodar o projeto em sua máquina. Veja:
 
-### `npm run eject`
+**1) Clone o projeto para sua máquina**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git clone https://github.com/marcellodev/smart-tv-globo.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**2) Entre na pasta raiz do projeto que você acabou de clonar**
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+cd smart-tv-globo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+**3) Instale os packages ( Isso pode levar alguns minutos )**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
 
-### Analyzing the Bundle Size
+npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
 
-### Making a Progressive Web App
+**4) Inicie o mini servidor e divirta-se :)**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```
 
-### Advanced Configuration
+npm start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```
 
-### Deployment
+OBS: ao rodar o **npm start**, será aberta automaticamente uma página no seu navegador, apontando para **http://localhost:3000**, caso isso não aconteça, basta acessar a url manualmente.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Autor
+
+**Marcello Vasconcelos** 
+
