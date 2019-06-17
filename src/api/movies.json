@@ -1,0 +1,52 @@
+{
+    "home": [
+        {
+            "logo":"img/bbb-logo-big-brother-brasil-logo-15.png",
+            "title":"Acompanhe 24h ao vivo a casa mais vigiada do Brasil",
+            "hero":"img/bbb19-programa-web.jpg",
+            "links":[
+                {
+                    "name":"Assista",
+                    "icon":"icons/play.svg"
+                },
+                {
+                    "name":"Veja mais",
+                    "icon":""
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "title":"Sala de estar",
+            "category": "Realities",
+            "thumb":"bbb-casa.jpg",
+            "hero":"bbb-19.jpg"
+        },
+        {
+            "title":"Varanda",
+            "category": "Realities",
+            "thumb":"bbb-19.jpg",
+            "hero":"bbb-19.jpg"
+        },
+        {
+            "title":"Piscina",
+            "category": "Realities",
+            "thumb":"bbb-19.jpg",
+            "hero":"bbb-19.jpg"
+        },
+        {
+            "title":"Academia",
+            "category": "Realities",
+            "thumb":"bbb-19.jpg",
+            "hero":"bbb-19.jpg"
+        },
+        {
+            "title":"Chuveiro",
+            "category": "Realities",
+            "thumb":"bbb-19.jpg",
+            "hero":"bbb-19.jpg"
+        }
+
+    ]
+}
