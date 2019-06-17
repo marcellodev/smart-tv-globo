@@ -1,5 +1,4 @@
-# Telecine Play
-
+# Smart TV Globoplay
 Aplicação desenvolvida para teste de conhecimento no processo seletivo da equipe Globo.
 
 
