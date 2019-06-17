@@ -57,7 +57,6 @@ npm start
 OBS: ao rodar o **npm start**, será aberta automaticamente uma página no seu navegador, apontando para **http://localhost:3000**, caso isso não aconteça, basta acessar a url manualmente.
 
 
-```
 
 ## Autor
 
